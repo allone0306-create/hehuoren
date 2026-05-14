@@ -6,25 +6,25 @@ export default function Brand() {
       name: '未山',
       role: 'CEO / 高级美术师',
       desc: '品牌战略与项目统筹',
-      photo: '/images/weishan.png', // 
+      photo: 'src=/images/weishan.png', // 
     },
     {
       name: '蒲锐',
       role: '艺术总监 / 综合材料艺术家',
       desc: '空间艺术与在地创作',
-      photo: '/images/purui.png', // 改成你的图片名
+      photo: 'srec=/images/purui.png', // 改成你的图片名
     },
     {
       name: '易东',
       role: '美学专家 / 川美教授',
       desc: '学术研究与美学指导',
-      photo: '/images/yidong.png', // 改成你的图片名
+      photo: 'src=/images/yidong.png', // 改成你的图片名
     },
     {
       name: '伍俊熹',
       role: 'Jason Ng / 川美讲师',
       desc: '设计创新与教学实践',
-      photo: '/images/laowu.png', // 改成你的图片名
+      photo: 'src=/images/laowu.png', // 改成你的图片名
     },
   ];
 
