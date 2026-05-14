@@ -28,7 +28,7 @@ export default function Contact() {
     <section id="contact" className="section-pad bg-charcoal text-paper relative overflow-hidden">
       {/* Decorative bg */}
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-[.06]"
-        style={{ backgroundImage: 'url(/images/hotel-exterior.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+        style={{ backgroundImage: 'url(/images/jincuiyihao.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
 
       <div ref={ref} className={`relative z-10 max-w-7xl mx-auto px-6 lg:px-8 transition-all duration-1000 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
 
