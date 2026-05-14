@@ -24,7 +24,7 @@ export default function Footer() {
             <p className="text-paper/30 text-sm mb-4">
               构建多维一体的设计思维，<br/>持续探索多元的生活方式。
             </p>
-            <p className="text-gold/50 text-lg tracking-[.2em]" style={{ fontFamily: 'var(--font-serif)' }}>
+            <p className="text-gold/50 text-xl tracking-[.2em]" style={{ fontFamily: 'var(--font-serif)' }}>
               达于心，成于行
             </p>
           </div>
