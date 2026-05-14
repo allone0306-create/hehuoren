@@ -96,7 +96,7 @@ export default function Contact() {
             <div className="mt-8 p-5 rounded-2xl bg-paper/[.03] border border-paper/[.06] inline-block">
               <p className="text-paper/40 text-xs mb-3">扫码关注公众号</p>
               <div className="w-24 h-24 bg-paper/10 rounded-xl flex items-center justify-center">
-                <span className="text-paper/20 text-xs text-center">公众号<br/>二维码</span>
+               <img src="/images/erweima.png" alt="公众号二维码" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
           </div>
