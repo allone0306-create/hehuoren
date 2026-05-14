@@ -46,8 +46,8 @@ const valueCards = [
 const summaryStats = [
   { label: 'ROI', value: '3-5年' },
   { label: '评分', value: '4.8+' },
-  { label: '合作', value: '24M+' },
-  { label: '成功率', value: '95%+' },
+  { label: '合作', value: '24月+' },
+  { label: '成功率', value: '90%+' },
 ];
 
 export default function Value() {
