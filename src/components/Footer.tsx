@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="mt-8 p-4 bg-paper/[.03] rounded-xl inline-block border border-paper/[.05]">
             
               <div className="w-20 h-20 bg-paper/10 rounded-lg flex items-center justify-center">
-                <img src="/images/qrcode.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
+                <img src="/images/erweima.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>
