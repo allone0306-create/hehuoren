@@ -49,9 +49,9 @@ export default function Footer() {
             </ul>
 
             <div className="mt-8 p-4 bg-paper/[.03] rounded-xl inline-block border border-paper/[.05]">
-              <p className="text-paper/30 text-xs mb-2">关注公众号</p>
+            
               <div className="w-20 h-20 bg-paper/10 rounded-lg flex items-center justify-center">
-                <img src="/erweima.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
+                <images src="/erweima.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             <a href="#" className="hover:text-paper/40 transition-colors">隐私政策</a>
             <a href="#" className="hover:text-paper/40 transition-colors">服务条款</a>
-            <span>渝ICP备XXXXXXXX号</span>
+          
           </div>
         </div>
       </div>
