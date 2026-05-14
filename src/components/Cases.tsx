@@ -6,7 +6,7 @@ const cases = [
     name: '西安 JW 万豪',
     location: '陕西·西安',
     type: '星级酒店',
-    image: '/images/hotel-exterior.PNG',
+    image: '/images/hotel-exterior.png',
     tagline: '千年古都的现代奢华',
     desc: '深度融入十三朝古都的历史底蕴，将大唐盛世的文化符号以当代设计语言重新诠释，打造兼具东方韵味与国际品质的奢华体验。',
   },
@@ -23,7 +23,7 @@ const cases = [
     location: '重庆·两江新区',
     type: '国际度假',
     tagline: '东方遇见西班牙',
-    image: '/images/dining.PNG',
+    image: '/images/dining.png',
     desc: '以"东方遇见西班牙"为文化主题，结合在地山水与地中海生活美学，打造融合式度假体验，开发特色SPA疗愈与户外探索项目。',
   },
   {
@@ -39,7 +39,7 @@ const cases = [
     location: '重庆',
     type: '城市酒店',
     tagline: '经典焕新，文化重生',
-    image: '/images/art-space.PNG',
+    image: '/images/art-space.png',
     desc: '为经典酒店注入新的文化活力，以巴渝码头文化为切入，结合现代设计语言，实现存量酒店的文化升级与品牌焕新。',
   },
 ];
