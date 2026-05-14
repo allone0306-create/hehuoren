@@ -49,9 +49,9 @@ export default function Footer() {
             </ul>
 
             <div className="mt-8 p-4 bg-paper/[.03] rounded-xl inline-block border border-paper/[.05]">
-            
+             <p className="text-paper/30 text-xs mb-2">关注公众号</p>
               <div className="w-20 h-20 bg-paper/10 rounded-lg flex items-center justify-center">
-                <img src="/images/erweima.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
+                <img src="/images/qrcode.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -62,8 +62,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-paper/20 text-xs">
           <p>© 2026 DAC 达成文化 · 版权所有</p>
           <div className="flex items-center gap-5">
-            <a href="#" className="hover:text-paper/40 transition-colors">隐私政策</a>
-            <a href="#" className="hover:text-paper/40 transition-colors">服务条款</a>
+          
           
           </div>
         </div>
