@@ -65,7 +65,7 @@ export default function Brand() {
 
           <div className="relative">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden">
-              <img src="/images/hupan.png" alt="达成文化" className="w-full h-full object-cover" loading="lazy" />
+              <img src="/images/shinei.png" alt="达成文化" className="w-full h-full object-cover" loading="lazy" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-charcoal text-paper p-6 rounded-2xl shadow-2xl max-w-[280px]">
               <p className="text-gold/80 text-lg tracking-[.15em] mb-2" style={{ fontFamily: 'var(--font-serif)' }}>
