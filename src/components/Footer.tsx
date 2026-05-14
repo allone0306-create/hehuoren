@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="mt-8 p-4 bg-paper/[.03] rounded-xl inline-block border border-paper/[.05]">
               <p className="text-paper/30 text-xs mb-2">关注公众号</p>
               <div className="w-20 h-20 bg-paper/10 rounded-lg flex items-center justify-center">
-                <span className="text-paper/15 text-[10px] text-center">二维码</span>
+                <img src="/erweima.png" alt="公众号" className="w-full h-full object-cover rounded-lg" />
               </div>
             </div>
           </div>
