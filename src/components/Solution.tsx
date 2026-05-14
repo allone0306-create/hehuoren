@@ -80,7 +80,7 @@ export default function Solution() {
 
         {/* Image strip */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
-          {['/images/culture-experience.jpg', '/images/art-space.jpg', '/images/dining.jpg', '/images/landscape.jpg'].map((src, i) => (
+          {['/images/culture-experience.png', '/images/art-space.png', '/images/diningy.png', '/images/landscape.png'].map((src, i) => (
             <div key={i} className="aspect-square rounded-2xl overflow-hidden">
               <img src={src} alt="" className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" loading="lazy" />
             </div>
