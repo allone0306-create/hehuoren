@@ -15,7 +15,7 @@ const cases = [
     location: '四川·自贡',
     type: '城市度假',
     tagline: '邂逅千年盐都，尽享灯城盛宴',
-    image: '/images/culture-experience.jpg',
+    image: '/images/zigonghaosheng.png',
     desc: '以自贡千年盐业文化与彩灯非遗为灵魂，将在地文化基因融入酒店空间与体验产品，打造具有强烈地域辨识度的文化酒店标杆。',
   },
   {
@@ -31,7 +31,7 @@ const cases = [
     location: '重庆',
     type: '度假酒店',
     tagline: '自然与艺术的对话',
-    image: '/images/spa-wellness.jpg',
+    image: '/images/liangyu.png',
     desc: '以山水自然为底色，以当代艺术为笔触，构建沉浸式度假体验空间。深入挖掘在地文化资源，打造一系列独特的文化体验产品。',
   },
   {
