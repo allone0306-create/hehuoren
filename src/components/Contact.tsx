@@ -68,7 +68,7 @@ export default function Contact() {
                 <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center shrink-0 text-lg">✉️</div>
                 <div>
                   <span className="text-paper/50 text-sm">邮箱</span>
-                  <p className="text-paper text-xl mt-1" style={{ fontFamily: 'var(--font-serif)' }}>info@dacheng-culture.com</p>
+                  <p className="text-paper text-xl mt-1" style={{ fontFamily: 'var(--font-serif)' }}>allone0306@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
