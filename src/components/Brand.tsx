@@ -1,11 +1,90 @@
-import { useReveal } from '../hooks/useReveal';
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>团队介绍</title>
+<style>
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+}
+.team-item {
+  width: 220px;
+  text-align: center;
+}
+.team-item img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.team-item h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+.role {
+  color: #666;
+  margin: 0 0 8px;
+}
+.desc {
+  color: #999;
+  font-size: 20px;
+  margin: 0;
+}
+</style>
+</head>
+<body>
 
+<div class="team-list"></div>
+
+<script>
 const team = [
-  { name: '未山', role: 'CEO / 高级美术师', desc: '品牌战略与项目统筹' },
-  { name: '蒲锐', role: '艺术总监 / 综合材料艺术家', desc: '空间艺术与在地创作' },
-  { name: '易东', role: '美学专家 / 川美教授', desc: '学术研究与美学指导' },
-  { name: '伍俊熹', role: 'Jason Ng / 川美讲师', desc: '设计创新与教学实践' },
+  { 
+    name: '未山', 
+    role: 'CEO / 高级美术师', 
+    desc: '品牌战略与项目统筹',
+    photo: '/images/weishan.png'
+  },
+  { 
+    name: '蒲锐', 
+    role: '艺术总监 / 综合材料艺术家', 
+    desc: '空间艺术与在地创作',
+    photo: '/images/purui.png'
+  },
+  { 
+    name: '易东', 
+    role: '美学专家 / 川美教授', 
+    desc: '学术研究与美学指导',
+    photo: '/images/yidong.png'
+  },
+  { 
+    name: '伍俊熹', 
+    role: 'Jason Ng / 川美讲师', 
+    desc: '设计创新与教学实践',
+    photo: '/images/lauwu.png'
+  }
 ];
+
+const teamList = document.querySelector('.team-list');
+team.forEach(member => {
+  const item = document.createElement('div');
+  item.className = 'team-item';
+  item.innerHTML = `
+    <img src="${member.photo}" alt="${member.name}">
+    <h3>${member.name}</h3>
+    <p class="role">${member.role}</p>
+    <p class="desc">${member.desc}</p>
+  `;
+  teamList.appendChild(item);
+});
+</script>
+
+</body>
+</html>
 
 const results = [
   { value: '30-50%', label: '服务项目营业额平均增长' },
