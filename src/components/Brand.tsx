@@ -74,9 +74,7 @@ team.forEach(member => {
   `;
   teamList.appendChild(item);
 });
-</script>
 
-</body>
 </html>
 
 const results = [
