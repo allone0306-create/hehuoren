@@ -1,80 +1,5 @@
 // src/components/Brand.tsx
-export default function Brand() {
-
-  const team = [
-    {
-      name: '未山',
-      role: 'CEO / 高级美术师',
-      desc: '品牌战略与项目统筹',
-      image: '/images/weishan.png', 
-    },
-    {
-      name: '蒲锐',
-      role: '艺术总监 / 综合材料艺术家',
-      desc: '空间艺术与在地创作',
-      image: '/images/purui.png', 
-    },
-    {
-      name: '易东',
-      role: '美学专家 / 川美教授',
-      desc: '学术研究与美学指导',
-      image: '/images/yidong.png', 
-    },
-    {
-      name: '伍俊熹',
-      role: 'Jason Ng / 川美讲师',
-      desc: '设计创新与教学实践',
-      image: '/images/laowu.png',
-    },
-  ];
-
-  return (
-    <div style={{
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: '30px',
-      padding: '40px',
-      justifyContent: 'center',
-    }}>
-      {team.map((member, index) => (
-        <div key={index} style={{
-          width: '220px',
-          textAlign: 'center',
-        }}>
-          <img
-            src={member.photo}
-            alt={member.name}
-            style={{
-              width: '160px',
-              height: '160px',
-              borderRadius: '50%',
-              objectFit: 'cover',
-              marginBottom: '16px',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-            }}
-          />
-          <h3 style={{ margin: '0 0 6px', fontSize: '20px' }}>{member.name}</h3>
-          <p style={{ color: '#666', margin: '0 0 8px' }}>{member.role}</p>
-          <p style={{ color: '#999', fontSize: '14px', margin: '0' }}>{member.desc}</p>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-const teamList = document.querySelector('.team-list');
-team.forEach(member => {
-  const item = document.createElement('div');
-  item.className = 'team-item';
-  item.innerHTML = `
-    <img src="${member.photo}" alt="${member.name}">
-    <h3>${member.name}</h3>
-    <p class="role">${member.role}</p>
-    <p class="desc">${member.desc}</p>
-  `;
-  teamList.appendChild(item);
-});
-
+import { useReveal } from '../hooks/useReveal'; // 如果你有这个hook就保留，没有就删掉这行
 
 const results = [
   { value: '30-50%', label: '服务项目营业额平均增长' },
@@ -87,6 +12,33 @@ const pillars = [
   { icon: '◎', title: '在地文化优先', desc: '每一个项目从当地文化土壤中生长，拒绝复制粘贴式设计' },
   { icon: '◇', title: '利益完全绑定', desc: '七折进场+营业额提成，只有酒店赚钱我们才赚钱' },
   { icon: '◆', title: '长期陪跑在场', desc: '不是交付即走，而是18-24个月持续运营支持' },
+];
+
+const team = [
+  {
+    name: '未山',
+    role: 'CEO / 高级美术师',
+    desc: '品牌战略与项目统筹',
+    image: '/images/weishan.png',
+  },
+  {
+    name: '蒲锐',
+    role: '艺术总监 / 综合材料艺术家',
+    desc: '空间艺术与在地创作',
+    image: '/images/purui.png',
+  },
+  {
+    name: '易东',
+    role: '美学专家 / 川美教授',
+    desc: '学术研究与美学指导',
+    image: '/images/yidong.png',
+  },
+  {
+    name: '伍俊熹',
+    role: 'Jason Ng / 川美讲师',
+    desc: '设计创新与教学实践',
+    image: '/images/laowu.png',
+  },
 ];
 
 export default function Brand() {
@@ -182,4 +134,5 @@ export default function Brand() {
       </div>
     </section>
   );
+}
 }
