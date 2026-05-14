@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden"
-      style={{ backgroundImage: 'url(/images/hero-hotel.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      style={{ backgroundImage: 'url(/images/daguanyuandian.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="absolute inset-0 bg-gradient-to-br from-ink/60 via-ink/50 to-ink/70" />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/50 via-transparent to-ink/30" />
 
