@@ -1,5 +1,5 @@
 // src/components/Brand.tsx
-import { useReveal } from '../hooks/useReveal'; // 如果你有这个hook就保留，没有就删掉这行
+import { useReveal } from '../hooks/useReveal';
 
 const results = [
   { value: '30-50%', label: '服务项目营业额平均增长' },
@@ -134,5 +134,4 @@ export default function Brand() {
       </div>
     </section>
   );
-}
 }
