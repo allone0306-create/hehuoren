@@ -75,7 +75,6 @@ team.forEach(member => {
   teamList.appendChild(item);
 });
 
-</html>
 
 const results = [
   { value: '30-50%', label: '服务项目营业额平均增长' },
